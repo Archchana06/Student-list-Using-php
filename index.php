@@ -14,7 +14,7 @@ $Studnet = $Student->getAllStudent();
 
 $edit_mode = false;
 $student_to_edit = null;
-
+//delete php code
 if(isset($_GET['ID'])&& isset($_GET['to_delete']))
 {
     $std_id=$_GET['ID'];
